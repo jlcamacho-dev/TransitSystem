@@ -478,36 +478,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
-    # db_name = 'oscugeoe'
-    # db_pass = 'XygPTgPYf9qsP9kd7eM6njYZIbThX1zU'
-    # db_server = 'drona.db.elephantsql.com'
-    # up.uses_netloc.append('postgres')
-    # conn = psycopg2.connect(database=db_name,
-    #                         user=db_name,
-    #                         password=db_pass,
-    #                         host=db_server,
-    #                         port='5432')
-
-# commands
-#     cnxn = connect()
-#     var = 'Trip'
-#     sql = 'SELECT * FROM ' + var
-#     dat = pd.read_sql_query(sql, cnxn)
-#     print(dat)
-#
-# cur = cnxn.cursor()
-# cur.execute('INSERT INTO Trip (tripnumber, startlocationname, destinationname) values (%s,%s,%s)', (200, 'Los Angeles', 'San Diego'))
-# cnxn.commit()
-#
-# dat = pd.read_sql_query(sql, cnxn)
-# print(dat)
-#
-# # closes connection
-# cnxn.close()
-
-# eception handling
-# try:
-#     cur.execute(sql)
-# except Exception as err:
-#     print(f'ERROR exception type: {err}')
