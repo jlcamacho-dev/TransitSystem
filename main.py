@@ -16,7 +16,7 @@ def validate(date_text):
 # ---------------  DB Connection -----------------------------------------#
 def connect():
     db_name = 'oscugeoe'
-    db_pass = 'XygPTgPYf9qsP9kd7eM6njYZIbThX1zU'
+    db_pass = None # database key/pass goes here, ommitted for security reasons 
     db_server = 'drona.db.elephantsql.com'
     up.uses_netloc.append('postgres')
     conxn = psycopg2.connect(database=db_name, user=db_name, password=db_pass, host=db_server, port='5432')
